@@ -1,4 +1,4 @@
-package live_coding.kapitel1_grundlagen;
+package live_coding.kapitel1_OOP_grundlagen;
 
 class Mensch {
     String name;

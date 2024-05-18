@@ -1,4 +1,4 @@
-package live_coding.kapitel1_grundlagen;
+package live_coding.kapitel1_OOP_grundlagen;
 // (static): Klassen variablen, spaeter auch Methoden
 // Instanz (oder objekt) variablen, spaeter auch Methoden
 

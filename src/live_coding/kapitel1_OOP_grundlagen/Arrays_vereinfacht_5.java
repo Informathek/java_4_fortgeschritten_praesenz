@@ -1,4 +1,4 @@
-package live_coding.kapitel1_grundlagen;
+package live_coding.kapitel1_OOP_grundlagen;
 
 public class Arrays_vereinfacht_5 {
     public static void main(String[] args) {
