@@ -1,4 +1,4 @@
-package live_coding.kapitel2_OOP_vertiefung;
+package live_coding.kapitel2_OOP_vererbung;
 /* Super
 * 1. Mit Variablen
 * 2. Mit Methoden

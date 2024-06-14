@@ -1,4 +1,4 @@
-package live_coding.kapitel2_OOP_vertiefung;
+package live_coding.kapitel2_OOP_vererbung;
 
 // super class
 class Animal{
@@ -55,8 +55,8 @@ public class Vererbung_1 {
         System.out.println("-------toString------");
 
         // die beiden naechsten Zeilen sind identisch
-        System.out.println(animal1); // live_coding.kapitel2_OOP_vertiefung.Animal@30f39991
-        System.out.println(animal1.toString()); // live_coding.kapitel2_OOP_vertiefung.Animal@30f39991
+        System.out.println(animal1); // live_coding.kapitel2_OOP_vererbung.Animal@30f39991
+        System.out.println(animal1.toString()); // live_coding.kapitel2_OOP_vererbung.Animal@30f39991
 
         System.out.println(animal1.gewicht); // 55
         System.out.println(animal1.age); // 55

@@ -1,7 +1,5 @@
-package live_coding.kapitel2_OOP_vertiefung;
+package live_coding.kapitel2_OOP_vererbung;
 /*
-* Agenda:
-*
 * 1. this:
 * ========
 *   a) verweist auf aktuelle class variablen
