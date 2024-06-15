@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fe15095-deb5-419b-8561-c5ea285b15ad" name="Changes" comment="add this">
-      <change afterPath="$PROJECT_DIR$/src/Vererbung_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel2_OOP_vertiefung/Wiederholung_konstrkutor_this.java" afterDir="false" />
+    <list default="true" id="7fe15095-deb5-419b-8561-c5ea285b15ad" name="Changes" comment="add hausaufgaben 0-4 markdowns">
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel2_OOP_vererbung/Zugriffsmodifikator_teil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel3_OOP_vertiefung/Abstract_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel3_OOP_vertiefung/Interface_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel3_OOP_vertiefung/Kapselung_getter_setter_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel3_OOP_vertiefung/Zugriffsmodifikator_teil1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel3_OOP_vertiefung/Zugriffsmodifikator_teil3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/live_coding/kapitel2_OOP_vertiefung/Vererbung_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/live_coding/kapitel2_OOP_vertiefung/Vererbung_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/live_coding/kapitel2_OOP_vertiefung/Programmer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +63,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Abstract_5.executor": "Run",
     "Application.Arrays_vereinfacht_5.executor": "Run",
+    "Application.Final_1.executor": "Run",
+    "Application.Kapselung_getter_setter_4.executor": "Run",
     "Application.KlassenStaticVariable_5.executor": "Run",
     "Application.Klassen_instanz_variablen_2.executor": "Run",
     "Application.Klassen_und_objekte.executor": "Run",
@@ -69,8 +76,11 @@
     "Application.Methoden_Konstruktoren_Wiederholung_8.executor": "Run",
     "Application.Methoden_wiederholung_4.executor": "Run",
     "Application.Programmer.executor": "Run",
+    "Application.Super4.executor": "Run",
     "Application.Vererbung_1.executor": "Run",
     "Application.Vererbung_2.executor": "Run",
+    "Application.Wiederholung3_vererbung.executor": "Debug",
+    "Application.Wiederholung_5_super_this.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -84,7 +94,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Vererbung_1">
+  <component name="RunManager">
     <configuration name="Konstruktoren_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="live_coding.kapitel1_OOP_grundlagen.Konstruktoren_7" />
       <module name="java_4_fortgeschritten_praesenz" />
@@ -116,7 +126,7 @@
       <module name="java_4_fortgeschritten_praesenz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="live_coding.kapitel2_OOP_vertiefung.*" />
+          <option name="PATTERN" value="live_coding.kapitel2_OOP_vererbung.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +135,11 @@
       </method>
     </configuration>
     <configuration name="Vererbung_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel2_OOP_vertiefung.Vererbung_1" />
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel2_OOP_vererbung.Vererbung_1" />
       <module name="java_4_fortgeschritten_praesenz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="live_coding.kapitel2_OOP_vertiefung.*" />
+          <option name="PATTERN" value="live_coding.kapitel2_OOP_vererbung.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Konstruktoren_7" />
         <item itemvalue="Application.Vererbung_1" />
         <item itemvalue="Application.Vererbung_2" />
         <item itemvalue="Application.Programmer" />
         <item itemvalue="Application.Methoden_Konstruktoren_Wiederholung_8" />
-        <item itemvalue="Application.Konstruktoren_7" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +178,12 @@
       <workItem from="1715329722801" duration="12296000" />
       <workItem from="1715952036841" duration="6834000" />
       <workItem from="1715958981041" duration="2221000" />
-      <workItem from="1716554675578" duration="9491000" />
+      <workItem from="1716554675578" duration="10637000" />
+      <workItem from="1717161638575" duration="9756000" />
+      <workItem from="1717322624867" duration="20000" />
+      <workItem from="1717762184622" duration="9446000" />
+      <workItem from="1718233226749" duration="651000" />
+      <workItem from="1718364908221" duration="12232000" />
     </task>
     <task id="LOCAL-00001" summary="add arrays">
       <option name="closed" value="true" />
@@ -226,7 +241,47 @@
       <option name="project" value="LOCAL" />
       <updated>1716016771813</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add vererbung">
+      <option name="closed" value="true" />
+      <created>1716624046581</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716624046581</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add super and vererbung">
+      <option name="closed" value="true" />
+      <created>1717322638075</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717322638075</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add super and vererbung">
+      <option name="closed" value="true" />
+      <created>1717833175452</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717833175452</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add hausaufgaben 0-4 markdowns">
+      <option name="closed" value="true" />
+      <created>1718233274620</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718233274620</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add hausaufgaben 0-4 markdowns">
+      <option name="closed" value="true" />
+      <created>1718370126889</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718370126889</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +318,20 @@
     <MESSAGE value="add methods" />
     <MESSAGE value="add konstrokten" />
     <MESSAGE value="add this" />
-    <option name="LAST_COMMIT_MESSAGE" value="add this" />
+    <MESSAGE value="add vererbung" />
+    <MESSAGE value="add super and vererbung" />
+    <MESSAGE value="add hausaufgaben 0-4 markdowns" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hausaufgaben 0-4 markdowns" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/live_coding/kapitel2_OOP_vererbung/Wiederholung3_vererbung.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
