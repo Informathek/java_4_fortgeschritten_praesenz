@@ -1,4 +1,4 @@
-package live_coding.kapitel3_OOP_vertiefung;
+package live_coding.kapitel3_OOP_vertiefung1;
 
 /*
  * Zugriffsmodifikatoren: sie bestimmen, an welcher Stelle im Code habe ich zugriff auf eine bestimte variable, methode, classe, etc.

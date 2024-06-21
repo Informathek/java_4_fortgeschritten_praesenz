@@ -1,4 +1,4 @@
-package live_coding.kapitel3_OOP_vertiefung;
+package live_coding.kapitel3_OOP_vertiefung1;
 
 // final class Animal{: wenn ich das auskommentiere, dann bekomme ich ein error, weil Mouse darf nicht mehr bon Animal erben
 class Animal{
