@@ -14,6 +14,9 @@ package live_coding.kapitel3_OOP_vertiefung1;
 
 import live_coding.kapitel2_OOP_vererbung.Zugriffsmodifikator_teil2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 class Mohammad{
     static String defaultName;
@@ -42,5 +45,6 @@ public class Zugriffsmodifikator_teil1 {
 
         Mohammad.defaultName = "Mo";
         // Mohammad.privateName = // error, weil privateName ist private
+
     }
 }

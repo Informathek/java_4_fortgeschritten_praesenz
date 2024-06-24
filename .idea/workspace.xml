@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fe15095-deb5-419b-8561-c5ea285b15ad" name="Changes" comment="add advanced oop topics">
+    <list default="true" id="7fe15095-deb5-419b-8561-c5ea285b15ad" name="Changes" comment="add collection framework">
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel4_OOP_vertiefung2/Abstraction_Interface_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel4_OOP_vertiefung2/Arrays_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel4_OOP_vertiefung2/Collections_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel4_OOP_vertiefung2/Listen_motivation_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel4_OOP_vertiefung2/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/live_coding/kapitel3_OOP_vertiefung1/Zugriffsmodifikator_teil1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/live_coding/kapitel3_OOP_vertiefung1/Zugriffsmodifikator_teil1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +64,9 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Abstract_5.executor": "Run",
+    "Application.Arrays.executor": "Run",
     "Application.Arrays_vereinfacht_5.executor": "Run",
+    "Application.Collections_4.executor": "Run",
     "Application.Final_1.executor": "Run",
     "Application.Kapselung_getter_setter_4.executor": "Run",
     "Application.KlassenStaticVariable_5.executor": "Run",
@@ -68,7 +77,9 @@
     "Application.Methoden_3.executor": "Debug",
     "Application.Methoden_Konstruktoren_Wiederholung_8.executor": "Run",
     "Application.Methoden_wiederholung_4.executor": "Run",
+    "Application.ObjektClass.executor": "Run",
     "Application.Programmer.executor": "Run",
+    "Application.Strings.executor": "Run",
     "Application.Super4.executor": "Run",
     "Application.Vererbung_1.executor": "Run",
     "Application.Vererbung_2.executor": "Run",
@@ -84,10 +95,39 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Collections_4">
+    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel4_OOP_vertiefung2.Arrays" />
+      <module name="java_4_fortgeschritten_praesenz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="live_coding.kapitel4_OOP_vertiefung2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Collections_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel4_OOP_vertiefung2.Collections_4" />
+      <module name="java_4_fortgeschritten_praesenz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="live_coding.kapitel4_OOP_vertiefung2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Konstruktoren_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="live_coding.kapitel1_OOP_grundlagen.Konstruktoren_7" />
       <module name="java_4_fortgeschritten_praesenz" />
@@ -101,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Methoden_Konstruktoren_Wiederholung_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel1_grundlagen.Methoden_Konstruktoren_Wiederholung_8" />
+    <configuration name="ObjektClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel4_OOP_vertiefung2.ObjektClass" />
       <module name="java_4_fortgeschritten_praesenz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="live_coding.kapitel1_OOP_grundlagen.*" />
+          <option name="PATTERN" value="live_coding.kapitel4_OOP_vertiefung2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,46 +154,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Programmer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel2_OOP_vertiefung.Programmer" />
+    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel4_OOP_vertiefung2.Strings" />
       <module name="java_4_fortgeschritten_praesenz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="live_coding.kapitel2_OOP_vererbung.*" />
+          <option name="PATTERN" value="live_coding.kapitel4_OOP_vertiefung2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vererbung_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel2_OOP_vererbung.Vererbung_1" />
-      <module name="java_4_fortgeschritten_praesenz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="live_coding.kapitel2_OOP_vererbung.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vererbung_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Vererbung_2" />
-      <module name="java_4_fortgeschritten_praesenz" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Collections_4" />
+        <item itemvalue="Application.Strings" />
+        <item itemvalue="Application.ObjektClass" />
+        <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.Konstruktoren_7" />
-        <item itemvalue="Application.Vererbung_1" />
-        <item itemvalue="Application.Vererbung_2" />
-        <item itemvalue="Application.Programmer" />
-        <item itemvalue="Application.Methoden_Konstruktoren_Wiederholung_8" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +197,7 @@
       <workItem from="1717762184622" duration="9446000" />
       <workItem from="1718233226749" duration="651000" />
       <workItem from="1718364908221" duration="12792000" />
+      <workItem from="1718974599210" duration="10663000" />
     </task>
     <task id="LOCAL-00001" summary="add arrays">
       <option name="closed" value="true" />
@@ -282,7 +303,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718438254368</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="rename vertiefung">
+      <option name="closed" value="true" />
+      <created>1718975039299</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718975039299</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add collection framework">
+      <option name="closed" value="true" />
+      <created>1719044503456</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719044503456</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +360,9 @@
     <MESSAGE value="add super and vererbung" />
     <MESSAGE value="add hausaufgaben 0-4 markdowns" />
     <MESSAGE value="add advanced oop topics" />
-    <option name="LAST_COMMIT_MESSAGE" value="add advanced oop topics" />
+    <MESSAGE value="rename vertiefung" />
+    <MESSAGE value="add collection framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="add collection framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
