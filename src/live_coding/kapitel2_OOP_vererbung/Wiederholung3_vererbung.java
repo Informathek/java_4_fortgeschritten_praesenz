@@ -1,5 +1,8 @@
 package live_coding.kapitel2_OOP_vererbung;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Kleidung{
     int quali;
     double preis = 10;
