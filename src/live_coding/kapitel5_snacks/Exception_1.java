@@ -1,10 +1,10 @@
-package live_coding;
+package live_coding.kapitel5_snacks;
 
 // Exception handling = Fehler behandlun
 
 import java.util.Scanner;
 
-public class kapitel5_snacks {
+public class Exception_1 {
     public static void main(String[] args) {
 //        int alter = 11;
 //        if (alter > 10){
