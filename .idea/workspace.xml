@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fe15095-deb5-419b-8561-c5ea285b15ad" name="Changes" comment="add collection - lists">
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel4_OOP_vertiefung2/Collection_8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/Input_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/Random_2.java" afterDir="false" />
+    <list default="true" id="7fe15095-deb5-419b-8561-c5ea285b15ad" name="Changes" comment="add collection - snacks">
+      <change afterPath="$PROJECT_DIR$/esraa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/InputStream_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/OutputStream_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/_OutputStream_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/_TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/_Testing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/Exception_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_4_fortgeschritten_praesenz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_4_fortgeschritten_praesenz.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +76,7 @@
     "Application.Collection_8.executor": "Run",
     "Application.Collections_4.executor": "Run",
     "Application.Final_1.executor": "Run",
+    "Application.InputStream_5.executor": "Run",
     "Application.Input_3.executor": "Run",
     "Application.Kapselung_getter_setter_4.executor": "Run",
     "Application.KlassenStaticVariable_5.executor": "Run",
@@ -82,6 +89,9 @@
     "Application.Methoden_Konstruktoren_Wiederholung_8.executor": "Run",
     "Application.Methoden_wiederholung_4.executor": "Run",
     "Application.ObjektClass.executor": "Run",
+    "Application.OutputStream.executor": "Run",
+    "Application.OutputStream_1.executor": "Run",
+    "Application.OutputStream_4.executor": "Run",
     "Application.Programmer.executor": "Run",
     "Application.Random_2.executor": "Run",
     "Application.Strings.executor": "Run",
@@ -91,6 +101,12 @@
     "Application.Wiederholung3_vererbung.executor": "Debug",
     "Application.Wiederholung_5_super_this.executor": "Run",
     "Application.kapitel5_snacks.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.TestClass.executor": "Run",
+    "JUnit.TestClass.testFindMax.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -111,19 +127,6 @@
   <component name="RunManager">
     <configuration name="ArrayList_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="live_coding.kapitel4_OOP_vertiefung2.ArrayList_6" />
-      <module name="java_4_fortgeschritten_praesenz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="live_coding.kapitel4_OOP_vertiefung2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Collections_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel4_OOP_vertiefung2.Collections_4" />
       <module name="java_4_fortgeschritten_praesenz" />
       <extension name="coverage">
         <pattern>
@@ -161,26 +164,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel4_OOP_vertiefung2.Strings" />
+    <configuration name="_TestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_4_fortgeschritten_praesenz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="live_coding.kapitel4_OOP_vertiefung2.*" />
+          <option name="PATTERN" value="live_coding.kapitel5_snacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="live_coding.kapitel5_snacks" />
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel5_snacks._TestClass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_TestClass.testFindMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_4_fortgeschritten_praesenz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="live_coding.kapitel5_snacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="live_coding.kapitel5_snacks" />
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel5_snacks._TestClass" />
+      <option name="METHOD_NAME" value="testFindMax" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._TestClass" />
+        <item itemvalue="JUnit._TestClass.testFindMax" />
         <item itemvalue="Application.Exception_1" />
         <item itemvalue="Application.ArrayList_6" />
         <item itemvalue="Application.Objekt_arrays_5" />
-        <item itemvalue="Application.Collections_4" />
-        <item itemvalue="Application.Strings" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +232,8 @@
       <workItem from="1719580264480" duration="9505000" />
       <workItem from="1719731905430" duration="17000" />
       <workItem from="1719732506174" duration="55000" />
-      <workItem from="1720176574381" duration="7009000" />
+      <workItem from="1720176574381" duration="7124000" />
+      <workItem from="1720450070330" duration="7821000" />
     </task>
     <task id="LOCAL-00001" summary="add arrays">
       <option name="closed" value="true" />
@@ -349,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719731915197</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add collection - snacks">
+      <option name="closed" value="true" />
+      <created>1720336261202</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720336261202</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +423,8 @@
     <MESSAGE value="rename vertiefung" />
     <MESSAGE value="add collection framework" />
     <MESSAGE value="add collection - lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="add collection - lists" />
+    <MESSAGE value="add collection - snacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add collection - snacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
