@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fe15095-deb5-419b-8561-c5ea285b15ad" name="Changes" comment="add collection - snacks">
-      <change afterPath="$PROJECT_DIR$/esraa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reem.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/InputStream_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/OutputStream_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/_OutputStream_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/_TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/_Testing.java" afterDir="false" />
+    <list default="true" id="7fe15095-deb5-419b-8561-c5ea285b15ad" name="Changes" comment="add streams - snacks">
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/Main_6_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/Testing_6_b.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_4_fortgeschritten_praesenz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_4_fortgeschritten_praesenz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/_OutputStream_1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +78,7 @@
     "Application.Klassen_variablen_1.executor": "Run",
     "Application.Konstruktoren_7.executor": "Run",
     "Application.List_7.executor": "Run",
+    "Application.Main_6_a.executor": "Run",
     "Application.Methoden_3.executor": "Debug",
     "Application.Methoden_Konstruktoren_Wiederholung_8.executor": "Run",
     "Application.Methoden_wiederholung_4.executor": "Run",
@@ -96,6 +90,7 @@
     "Application.Random_2.executor": "Run",
     "Application.Strings.executor": "Run",
     "Application.Super4.executor": "Run",
+    "Application.Testing_6.executor": "Run",
     "Application.Vererbung_1.executor": "Run",
     "Application.Vererbung_2.executor": "Run",
     "Application.Wiederholung3_vererbung.executor": "Debug",
@@ -104,6 +99,8 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.TestClass.executor": "Run",
     "JUnit.TestClass.testFindMax.executor": "Run",
+    "JUnit.Testing_6_b.executor": "Run",
+    "JUnit.Testing_6_b.testFindMaxWithNegativeNumbers.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -124,22 +121,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="ArrayList_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel4_OOP_vertiefung2.ArrayList_6" />
-      <module name="java_4_fortgeschritten_praesenz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="live_coding.kapitel4_OOP_vertiefung2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exception_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel5_snacks.Exception_1" />
+  <component name="RunManager" selected="JUnit.Testing_6_b">
+    <configuration name="Testing_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel5_snacks.Testing_6" />
       <module name="java_4_fortgeschritten_praesenz" />
       <extension name="coverage">
         <pattern>
@@ -151,15 +135,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Objekt_arrays_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel4_OOP_vertiefung2.Objekt_arrays_5" />
+    <configuration name="Testing_6_b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_4_fortgeschritten_praesenz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="live_coding.kapitel4_OOP_vertiefung2.*" />
+          <option name="PATTERN" value="live_coding.kapitel5_snacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="live_coding.kapitel5_snacks" />
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel5_snacks.Testing_6_b" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing_6_b.testFindMaxWithNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_4_fortgeschritten_praesenz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="live_coding.kapitel5_snacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="live_coding.kapitel5_snacks" />
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel5_snacks.Testing_6_b" />
+      <option name="METHOD_NAME" value="testFindMaxWithNegativeNumbers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Testing_6_b" />
+        <item itemvalue="JUnit.Testing_6_b.testFindMaxWithNegativeNumbers" />
+        <item itemvalue="Application.Testing_6" />
         <item itemvalue="JUnit._TestClass" />
         <item itemvalue="JUnit._TestClass.testFindMax" />
-        <item itemvalue="Application.Exception_1" />
-        <item itemvalue="Application.ArrayList_6" />
-        <item itemvalue="Application.Objekt_arrays_5" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +235,7 @@
       <workItem from="1719731905430" duration="17000" />
       <workItem from="1719732506174" duration="55000" />
       <workItem from="1720176574381" duration="7124000" />
-      <workItem from="1720450070330" duration="7821000" />
+      <workItem from="1720450070330" duration="15141000" />
     </task>
     <task id="LOCAL-00001" summary="add arrays">
       <option name="closed" value="true" />
@@ -379,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720336261202</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add streams - snacks">
+      <option name="closed" value="true" />
+      <created>1720510399595</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720510399595</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +434,8 @@
     <MESSAGE value="add collection framework" />
     <MESSAGE value="add collection - lists" />
     <MESSAGE value="add collection - snacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add collection - snacks" />
+    <MESSAGE value="add streams - snacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add streams - snacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,6 +445,10 @@
           <line>66</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.opentest4j.AssertionFailedError" package="org.opentest4j" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
