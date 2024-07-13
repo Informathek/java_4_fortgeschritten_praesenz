@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fe15095-deb5-419b-8561-c5ea285b15ad" name="Changes" comment="add streams - snacks">
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/Main_6_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/Testing_6_b.java" afterDir="false" />
+    <list default="true" id="7fe15095-deb5-419b-8561-c5ea285b15ad" name="Changes" comment="add JUnitTest - snacks">
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/DocString_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/ForEach_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/Scratch_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/Threads_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/live_coding/kapitel5_snacks/_OutputStream_1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -68,7 +74,9 @@
     "Application.Collection_6.executor": "Run",
     "Application.Collection_8.executor": "Run",
     "Application.Collections_4.executor": "Run",
+    "Application.DocString_7.executor": "Run",
     "Application.Final_1.executor": "Run",
+    "Application.ForEach_8.executor": "Run",
     "Application.InputStream_5.executor": "Run",
     "Application.Input_3.executor": "Run",
     "Application.Kapselung_getter_setter_4.executor": "Run",
@@ -88,9 +96,11 @@
     "Application.OutputStream_4.executor": "Run",
     "Application.Programmer.executor": "Run",
     "Application.Random_2.executor": "Run",
+    "Application.Scratch_7.executor": "Run",
     "Application.Strings.executor": "Run",
     "Application.Super4.executor": "Run",
     "Application.Testing_6.executor": "Run",
+    "Application.Threads_9.executor": "Run",
     "Application.Vererbung_1.executor": "Run",
     "Application.Vererbung_2.executor": "Run",
     "Application.Wiederholung3_vererbung.executor": "Debug",
@@ -107,6 +117,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -121,7 +134,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Testing_6_b">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="live_coding.kapitel5_snacks" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Scratch_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel5_snacks.Scratch_7" />
+      <module name="java_4_fortgeschritten_praesenz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="live_coding.kapitel5_snacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testing_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="live_coding.kapitel5_snacks.Testing_6" />
       <module name="java_4_fortgeschritten_praesenz" />
@@ -181,29 +215,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_TestClass.testFindMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_4_fortgeschritten_praesenz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="live_coding.kapitel5_snacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="live_coding.kapitel5_snacks" />
-      <option name="MAIN_CLASS_NAME" value="live_coding.kapitel5_snacks._TestClass" />
-      <option name="METHOD_NAME" value="testFindMax" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scratch_7" />
         <item itemvalue="JUnit.Testing_6_b" />
         <item itemvalue="JUnit.Testing_6_b.testFindMaxWithNegativeNumbers" />
         <item itemvalue="Application.Testing_6" />
         <item itemvalue="JUnit._TestClass" />
-        <item itemvalue="JUnit._TestClass.testFindMax" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +253,8 @@
       <workItem from="1719731905430" duration="17000" />
       <workItem from="1719732506174" duration="55000" />
       <workItem from="1720176574381" duration="7124000" />
-      <workItem from="1720450070330" duration="15141000" />
+      <workItem from="1720450070330" duration="18078000" />
+      <workItem from="1720798254265" duration="8427000" />
     </task>
     <task id="LOCAL-00001" summary="add arrays">
       <option name="closed" value="true" />
@@ -389,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720510399595</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add JUnitTest - snacks">
+      <option name="closed" value="true" />
+      <created>1720551129867</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1720551129867</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +462,8 @@
     <MESSAGE value="add collection - lists" />
     <MESSAGE value="add collection - snacks" />
     <MESSAGE value="add streams - snacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add streams - snacks" />
+    <MESSAGE value="add JUnitTest - snacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add JUnitTest - snacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
